@@ -25,9 +25,7 @@
                 <td> <?php echo $result['Contect'];?> </td>
                 <td> <?php echo $result ['Adress'];?> </td>
                 <td><a href="update.php?id=<?php echo $result['sid'];?>">edit</a></td>
-                <td><a href="delete.php?id=<?php echo $result['sid'];?>">delete</a></td>
-            </tr>
-            <?php } ?>
+                <td><a href="delete.php?id=<?php echo $result['sid'];?>">delete</a></td><?php } ?>
         </tbody>
         </table>
         </body>              

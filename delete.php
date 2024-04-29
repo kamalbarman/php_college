@@ -3,7 +3,7 @@
 
     $did = $_GET["id"];
 
-    $deletequery = "DELETE FROM student WHERE  sid = $did";
+    $deletequery = 'DELETE FROM student WHERE  sid = $did';
 
     $query = mysqli_query($con ,$deletequery);
 
@@ -16,7 +16,7 @@
       </script>
       <?php
       header('Location:select.php');
-     } else { ?>
+     } else { >
         
       <script>
           alert("not deleted");
