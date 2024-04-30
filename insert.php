@@ -12,7 +12,7 @@
 </html>
 
     <?php 
-    include "conect.php" ;
+    include "conect.php";
     if(isset($_POST['submit']))
     {
       $name = $_POST ['name'];
@@ -21,7 +21,7 @@
       $adress =$_POST['adress'];
 
       $insertquery ="INSERT INTO student(Name,Gender,Contect,Adress)
-      values('$name','$gender','$contect', '$adress')";
+      values('$name','$gender','$contect','$adress')";
       $query= mysqli_query($con,$insertquery)  ;
       if($query)
       { ?>
