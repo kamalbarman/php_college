@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
     <head>
         <title> view </title>
@@ -60,4 +61,3 @@
         </body>              
 
         
-                     

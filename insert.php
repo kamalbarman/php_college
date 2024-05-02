@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -177,4 +178,3 @@ input[type=text], select, textarea{
             </script> 
  <?php }
     }
-    ?>
