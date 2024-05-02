@@ -43,6 +43,7 @@ if(isset($_POST['submit']))
       </script> 
 <?php }
 }
+
 ?>
 <form action="" method ="POST">
     name <input type = " text" name= "name" value="<?php echo $result['Name'];?>">
@@ -51,5 +52,8 @@ if(isset($_POST['submit']))
     adress <input type ="text" name ="adress" value="<?php echo $result['Adress'];?>">
     
     <input type ="submit" value="update" name="submit" >
+    <a href="select.php">slect</a>
+    <a href="insert.php">insert</a>
+
 
 </form>

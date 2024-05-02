@@ -3,9 +3,14 @@
         <title> view </title>
    </head>
    <body>
+    
+   <a href="insert.php">insert</a>
+    
+<br>
+<br>
     <table>
         <thead >
-            <tr style="border : 1px solid black;">
+            <tr>
                 <td > NAME </td>
                 <td> GENDER </td>
                 <td> CONTECT </td>
@@ -17,6 +22,7 @@
         $selectquery = "SELECT * FROM student";
         $query = mysqli_query ($con, $selectquery);
         while ( $result = mysqli_fetch_assoc($query))
+        
         {?>
         <tbody>
             <tr>
