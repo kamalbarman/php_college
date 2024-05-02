@@ -1,11 +1,37 @@
 <html>
     <head>
         <title> view </title>
+        <style>
+            table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 15px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .btn1{
+        
+        background-color: #1748ab;
+        width: 5rem;
+        border-radius: 10%;
+        
+    }
+        </style>
    </head>
    <body>
-    <table>
+   <button class="btn1"><a style="color: white; text-decoration: none;" href="insert.php">insert</a></button> 
+    
+<br>
+<br>
+    <table >
         <thead >
-            <tr style="border : 1px solid black;">
+            <tr>
                 <td > NAME </td>
                 <td> GENDER </td>
                 <td> CONTECT </td>
@@ -17,6 +43,7 @@
         $selectquery = "SELECT * FROM student";
         $query = mysqli_query ($con, $selectquery);
         while ( $result = mysqli_fetch_assoc($query))
+        
         {?>
         <tbody>
             <tr>
