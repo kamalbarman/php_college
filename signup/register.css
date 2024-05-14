@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(86, 166, 232);
+    backdrop-filter: blur(1px);
+}
+.container{
+    background-color: rgb(113, 175, 225);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 600px;
+    box-shadow: 0 0 5px #BDF2FE;
+
+}
+.container div{
+    margin-top: 50px;
+    
+  
+}
+
+.container div input{
+    width: 400px;
+    height: 25px;
+    
+  
+}
+
+
+.container div input.submit{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color:turquoise;
+   
+}
